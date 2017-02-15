@@ -16,7 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".CreateDataActivity" />
-        <activity android:name=".RxJavaBasisActivity"></activity>
+        <activity android:name=".RxJavaBasisActivity" />
+        <activity android:name=".FilterDataActivity" />
+        <activity android:name=".CheckDataActivity" />
+        <activity android:name=".ChangeDataActivity" />
+        <activity android:name=".AggregateActivity" />
+        <activity android:name=".CombineObservableActivity"></activity>
     </application>
 
 </manifest>

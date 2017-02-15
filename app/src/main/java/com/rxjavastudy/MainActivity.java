@@ -23,4 +23,29 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void filterData(View view) {
+        Intent intent = new Intent(this, FilterDataActivity.class);
+        startActivity(intent);
+    }
+
+    public void checkData(View view) {
+        Intent intent = new Intent(this, CheckDataActivity.class);
+        startActivity(intent);
+    }
+
+    public void changeData(View view) {
+        Intent intent = new Intent(this, ChangeDataActivity.class);
+        startActivity(intent);
+    }
+
+    public void aggregateData(View view) {
+        Intent intent = new Intent(this, AggregateActivity.class);
+        startActivity(intent);
+    }
+
+    public void combineObservable(View view) {
+        Intent intent = new Intent(this, CombineObservableActivity.class);
+        startActivity(intent);
+    }
+
 }

@@ -23,4 +23,34 @@
         android:layout_height="wrap_content"
         android:text="创建数据流"
         android:onClick="createData"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="过滤数据"
+        android:onClick="filterData"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="检查数据"
+        android:onClick="checkData"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="变换数据"
+        android:onClick="changeData"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="聚合数据"
+        android:onClick="aggregateData"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组合数据流"
+        android:onClick="combineObservable"/>
 </LinearLayout>
