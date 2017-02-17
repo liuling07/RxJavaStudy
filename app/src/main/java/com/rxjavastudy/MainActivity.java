@@ -48,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void errorHandle(View view) {
+        Intent intent = new Intent(this, ErrorHandleActivity.class);
+        startActivity(intent);
+    }
+
 }

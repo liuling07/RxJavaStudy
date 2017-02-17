@@ -21,7 +21,8 @@
         <activity android:name=".CheckDataActivity" />
         <activity android:name=".ChangeDataActivity" />
         <activity android:name=".AggregateActivity" />
-        <activity android:name=".CombineObservableActivity"></activity>
+        <activity android:name=".CombineObservableActivity" />
+        <activity android:name=".ErrorHandleActivity"></activity>
     </application>
 
 </manifest>

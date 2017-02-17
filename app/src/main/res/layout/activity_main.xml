@@ -53,4 +53,10 @@
         android:layout_height="wrap_content"
         android:text="组合数据流"
         android:onClick="combineObservable"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="错误处理"
+        android:onClick="errorHandle"/>
 </LinearLayout>
